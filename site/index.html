@@ -1,10 +1,90 @@
 <!doctype html>
+<!-- To start browser sync:
+	browser-sync start --server --directory --files "*"
+-->
 
 <html>
 <head>
-	<title>Hello Coursera!</title>
+  <meta charset="utf-8">
+  <title>Fermobilar i blåbärsskogen</title>
+
+  <style>
+	.blue{color:blue;}
+	.size{font-size:24px;}
+	div li{color:green;}
+	span{color:purple;}
+	section > h3 {font-size:30px}
+	h1 {text-align: center;
+	    font-size: 34px;
+	    color:blue;
+	    background-color: cyan;
+	}
+	.linkbutton{
+		text-decoration: none;
+		background-color: green;
+		border: 1px solid blue;
+		color:black;
+		display:block;
+		width: 100px;
+		text-align: center;
+		margin-bottom: 2px;
+		margin-top: 2px;
+	}
+	a:hover{
+		background-color: red;
+	}
+	a:active{
+		background-color: purple;
+	}
+	</style>
 </head>
+
+
 <body>
-<h1>Hello Coursera! changed declaration</h1>
+<h1>Teststuff</h1>
+<section id="section-entities">
+<h3 class="blue">
+	HTML Entities
+</h2>
+<div>
+	<p class="size">
+	Characters:
+	<p>
+	<ul>
+		<li>Ampersand:&amp;</li>
+		<li>Less than:&lt;</li>
+		<li>Greater than:&gt;</li>
+	</ul>
+	<span class="size">Wrapped text bits:</span> "Ticking away the moments that make up a dull day.
+Fritter and waste the hours in an offhand way. 
+Kicking around on a piece of ground in your home town.
+Waiting for someone or something to&nbsp;show&nbsp;you&nbsp;the&nbsp;way."
+</div>
+</section>
+
+<section>
+	<h3 class="blue">
+	Links
+	</h3>
+	<ul>
+	<li>
+		Link to 27crags:
+	<a href="https://www.27crags.com" class="linkbutton"
+	target="_blank" title = "27crags">27crags!</a>
+	</li>
+	<li>
+	Link to HTML entities:
+	<a href="#section-entities" class="linkbutton">Sec: Entities</a>
+	</li>
+    </ul>
+</section>
+
+<section>
+<p>
+	<img src="nightsesh.jpg" width="800" height="470" alt="Night sesh">
+</p>
+</section>
+
+
 </body>
 </html>
