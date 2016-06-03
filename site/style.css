@@ -1,0 +1,99 @@
+*{box-sizing: border-box;}
+body{
+	background-color: #00eeff;
+}
+
+@media (min-width: 1200px){
+	.col-l-1, .col-l-2, .col-l-3{
+		float: left;
+		border: 1px solid green;
+	}
+	.col-l-1{
+		width: 25%;
+	}
+	.col-l-2{
+		width: 50%;
+	}
+	.col-l-3{
+		width: 100%
+	}
+}
+
+@media (min-width: 950px) and (max-width: 1199px){
+	.col-m-1, .col-m-2, .col-m-3{
+		float: left;
+		border: 1px solid green;
+	}
+	.col-m-1{
+		width: 25%;
+	}
+	.col-m-2{
+		width: 50%;
+	}
+	.col-m-3{
+		width: 100%
+	}
+}
+
+.centerhorizontal{
+	width:59%;
+	margin:auto;
+}
+
+.box{
+	border: 1px solid black;
+	background-color: #A52A2A;
+	width:90%;
+	margin-right: auto;
+	margin-left: auto;
+	color: white;
+	padding:3px;
+	text-align: center;
+}
+.row{
+	width:100%;
+}
+
+.blue{color:blue;}
+.size{font-size:24px;}
+div li{color:green;}
+span{color:purple;}
+section > h3 {font-size:30px}
+h1 {text-align: center;
+    font-size: 34px;
+    color:blue;
+    background-color: #555500;
+}
+#box{
+	padding: 50px;
+	background-color: #000055;
+	border: 20px solid #220000;
+	width:600px;
+	overflow: auto;
+	margin-bottom: 20px;
+	margin-top:20px;
+}
+#content{
+	
+	font-style: italic;
+	font-size: 20px;
+	padding: 10px;
+	background-color: green;
+}
+.linkbutton{
+	text-decoration: none;
+	background-color: green;
+	border: 1px solid blue;
+	color:black;
+	display:block;
+	width: 100px;
+	text-align: center;
+	margin-bottom: 2px;
+	margin-top: 2px;
+}
+a:hover{
+	background-color: red;
+}
+a:active{
+	background-color: purple;
+}

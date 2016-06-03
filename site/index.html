@@ -3,40 +3,12 @@
 	browser-sync start --server --directory --files "*"
 -->
 
-<html>
+<html id ="top">
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Fermobilar i blåbärsskogen</title>
-
-  <style>
-	.blue{color:blue;}
-	.size{font-size:24px;}
-	div li{color:green;}
-	span{color:purple;}
-	section > h3 {font-size:30px}
-	h1 {text-align: center;
-	    font-size: 34px;
-	    color:blue;
-	    background-color: cyan;
-	}
-	.linkbutton{
-		text-decoration: none;
-		background-color: green;
-		border: 1px solid blue;
-		color:black;
-		display:block;
-		width: 100px;
-		text-align: center;
-		margin-bottom: 2px;
-		margin-top: 2px;
-	}
-	a:hover{
-		background-color: red;
-	}
-	a:active{
-		background-color: purple;
-	}
-	</style>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 
@@ -62,29 +34,50 @@ Waiting for someone or something to&nbsp;show&nbsp;you&nbsp;the&nbsp;way."
 </div>
 </section>
 
-<section>
-	<h3 class="blue">
-	Links
-	</h3>
-	<ul>
-	<li>
-		Link to 27crags:
-	<a href="https://www.27crags.com" class="linkbutton"
-	target="_blank" title = "27crags">27crags!</a>
-	</li>
-	<li>
-	Link to HTML entities:
-	<a href="#section-entities" class="linkbutton">Sec: Entities</a>
-	</li>
-    </ul>
-</section>
+<h3 class="blue">
+Links
+</h3>
+<ul>
+<li>
+	Link to 27crags:
+<a href="https://www.27crags.com" class="linkbutton"
+target="_blank" title = "27crags">27crags!</a>
+</li>
+<li>
+Link to HTML entities:
+<a href="#section-entities" class="linkbutton">Sec: Entities</a>
+</li>
+</ul>
 
-<section>
-<p>
+
+<div class="centerhorizontal">
 	<img src="nightsesh.jpg" width="800" height="470" alt="Night sesh">
-</p>
-</section>
+</div>
 
+
+<div id="box" class="centerhorizontal">
+	<div id="content">"Ticking away the moments that make up a dull day.
+Fritter and waste the hours in an offhand way. 
+Kicking around on a piece of ground in your home town.
+Waiting for someone or something to show you the way."</div>
+</div>
 
 </body>
 </html>
+
+
+<div class="row">
+	<div class = "col-l-1 col-m-2"><p class="box">Item 1</p></div>
+	<div class = "col-l-1 col-m-2"><p class="box">Item 2</p></div>
+	<div class = "col-l-1 col-m-2"><p class="box">Item 3</p></div>
+	<div class = "col-l-1 col-m-2"><p class="box">Item 4</p></div>
+	<div class = "col-l-1 col-m-2"><p class="box">Item 5</p></div>
+	<div class = "col-l-1 col-m-2"><p class="box">Item 6</p></div>
+	<div class = "col-l-1 col-m-2"><p class="box">Item 7</p></div>
+	<div class = "col-l-1 col-m-2"><p class="box">Item 8</p></div>
+</div>
+
+<div>
+	Link to top:
+	<a href="#top" class="linkbutton">Go to top</a>
+</div>
